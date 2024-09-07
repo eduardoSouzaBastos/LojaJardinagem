@@ -1,0 +1,136 @@
+:root {
+    --fonte-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cor-principal: #1A5319;
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria: #FEF3E2;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho {
+    background-color: var(--cor-principal);
+    padding: 2%;
+}
+
+.cabecalho__paginas {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.cabecalho__pagina {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao__conteudo__principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-terciaria);
+    gap: 5px;
+    padding: 8%;
+}
+
+.apresentacao__conteudo__principal__titulo {
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.apresentacao__conteudo__principal__subtitulo {
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.apresentacao__conteudo__secundario {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+    padding: 10% 0;
+}
+
+.apresentacao__conteudo__texto {
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.apresentacao__sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 5% 0;
+}
+
+.apresentacao__sobre__texto {
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    text-align: center;
+    width: 950px;
+    font-size: 18px;
+}
+
+.apresentacao__produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 5% 0;
+}
+
+.apresentacao__produtos__linha {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.informacoes__contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12%;
+    gap: 30px;
+}
+
+.informacoes__contato__texto {
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+    font-size: 22px;
+}
+
+.informacoes__contato__dados {
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+    font-size: 18px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-principal);
+    padding: 3%;
+    align-items: center;
+    gap: 10px;
+}
+
+.rodape__texto {    
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
